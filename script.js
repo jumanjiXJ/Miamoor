@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const letterView = document.querySelector('.letter-view');
     const lockContainer = document.querySelector('.lock-container');
     const unlockButton = document.getElementById('unlock-button');
-    const correctCode = "2025"; // Pon aquí la fecha correcta
+    const correctCode = "0304"; // Pon aquí la fecha correcta
     let currentCombination = [0, 0, 0, 0];
 
     const scratchCard = document.querySelector('.scratch-card');
